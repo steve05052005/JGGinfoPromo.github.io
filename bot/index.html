@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Flotante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="robot.png" alt="Robot" class="robot">
+        <div class="speech-bubble" id="bubble-message">
+            <p id="bubble-message"></p>
+
+        </div>
+       <div class="buttons">
+            <button class="blue-button" onclick="updateBubble('Sábado 20 es la sesión de fotos de toga y birrete, donde se llevan los familiares, padrinos y madrinas. Esta será en el Liceo JGG desde la 1:30 hasta las 4:30 de la tarde.')">Toga y Birrete</button>
+            <button class="blue-button" onclick="updateBubble('El viernes 12 de julio es el acto de investidura paraninfo de Economía de la Universidad Autónoma de Santo Domingo')">Investidura</button>
+            <button class="blue-button" onclick="updateBubble('Defile de graduacion de 3:30 a 4:00')">Graduacion</button>
+            <button class="blue-button" onclick="updateBubble('Viernes 12 de julio, de 4:00 a 5:45 de la tarde: ceremonia de graduación con la entrega de certificados y reconocimientos a estudiantes y maestros')">Reconocimientos</button>
+            <button class="blue-button" onclick="updateBubble('Foto en una fockin Camara 360 de 2:00 a 3:30')">Camara</button>
+            <button class="blue-button" onclick="updateBubble('Entre mas me la jalan ,mas me crece xd')">13</button>
+            <button class="blue-button" onclick="updateBubble('El que tengo aqui colgado')">Rolando</button>
+            <button class="blue-button" onclick="updateBubble('Mi sistema no detecta vida inteligente')">Wilyi</button>
+        </div>
+        <button class="red-button" onclick="updateBubble('Salir')">Salir</button>
+    </div>
+    
+  
+    <footer>
+        <div class="footer-icons">
+          <a href=" https://wa.me/+18297575324">  <div class="icon"></a>
+                <img src="what.png" alt="Icono 1">
+            </div>
+            <div class="icon" onclick="showDialog('Hola soy Steve xd , aveces soy programador y aveces le hago clases a Yocasta xd')">
+                <img src="hi.png" alt="Icono 2">
+            </div>
+            <div class="icon" onclick="showDialog('visita hithub alli puse todo we')">
+                <img src="tel.png" alt="Icono 3">
+            </div>
+        </div>
+    </footer>
+
+    
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
